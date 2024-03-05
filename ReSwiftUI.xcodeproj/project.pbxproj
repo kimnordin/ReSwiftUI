@@ -8,18 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		F2C44B872B9201190035198D /* ReSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C44B862B9201190035198D /* ReSwiftUIApp.swift */; };
-		F2C44B892B9201190035198D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C44B882B9201190035198D /* ContentView.swift */; };
 		F2C44B8B2B92011B0035198D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C44B8A2B92011B0035198D /* Assets.xcassets */; };
 		F2C44B8F2B92011B0035198D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2C44B8E2B92011B0035198D /* Preview Assets.xcassets */; };
+		F2C44B972B9201470035198D /* ReSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F2C44B962B9201470035198D /* ReSwift */; };
+		F2C44B9A2B9201640035198D /* StoreHostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C44B992B9201640035198D /* StoreHostingController.swift */; };
+		F2C44B9D2B92018C0035198D /* ObservableState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C44B9C2B92018C0035198D /* ObservableState.swift */; };
+		F2C44B9F2B92019E0035198D /* RootState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C44B9E2B92019E0035198D /* RootState.swift */; };
+		F2C44BA12B9201BF0035198D /* NavigationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C44BA02B9201BF0035198D /* NavigationState.swift */; };
+		F2C44BA32B9202790035198D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C44BA22B9202790035198D /* AppDelegate.swift */; };
+		F2C44BA52B9202840035198D /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C44BA42B9202840035198D /* AppRouter.swift */; };
+		F2C44BA72B9202B10035198D /* NumberState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C44BA62B9202B10035198D /* NumberState.swift */; };
+		F2C44BAA2B9203000035198D /* RootReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C44BA92B9203000035198D /* RootReducer.swift */; };
+		F2C44BAC2B92033A0035198D /* NavigationReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C44BAB2B92033A0035198D /* NavigationReducer.swift */; };
+		F2C44BAF2B92036D0035198D /* NavigationActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C44BAE2B92036D0035198D /* NavigationActions.swift */; };
+		F2C44BB12B92038D0035198D /* NumberReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C44BB02B92038D0035198D /* NumberReducer.swift */; };
+		F2C44BB32B9203940035198D /* NumberActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C44BB22B9203940035198D /* NumberActions.swift */; };
+		F2C44BB52B9204990035198D /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C44BB42B9204990035198D /* FirstView.swift */; };
+		F2C44BB72B9204A00035198D /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C44BB62B9204A00035198D /* SecondView.swift */; };
+		F2C44BBA2B9205EC0035198D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C44BB92B9205EC0035198D /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F2C44B832B9201190035198D /* ReSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2C44B862B9201190035198D /* ReSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReSwiftUIApp.swift; sourceTree = "<group>"; };
-		F2C44B882B9201190035198D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F2C44B8A2B92011B0035198D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2C44B8C2B92011B0035198D /* ReSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReSwiftUI.entitlements; sourceTree = "<group>"; };
 		F2C44B8E2B92011B0035198D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2C44B992B9201640035198D /* StoreHostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreHostingController.swift; sourceTree = "<group>"; };
+		F2C44B9C2B92018C0035198D /* ObservableState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableState.swift; sourceTree = "<group>"; };
+		F2C44B9E2B92019E0035198D /* RootState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootState.swift; sourceTree = "<group>"; };
+		F2C44BA02B9201BF0035198D /* NavigationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationState.swift; sourceTree = "<group>"; };
+		F2C44BA22B9202790035198D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2C44BA42B9202840035198D /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		F2C44BA62B9202B10035198D /* NumberState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberState.swift; sourceTree = "<group>"; };
+		F2C44BA92B9203000035198D /* RootReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootReducer.swift; sourceTree = "<group>"; };
+		F2C44BAB2B92033A0035198D /* NavigationReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationReducer.swift; sourceTree = "<group>"; };
+		F2C44BAE2B92036D0035198D /* NavigationActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationActions.swift; sourceTree = "<group>"; };
+		F2C44BB02B92038D0035198D /* NumberReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberReducer.swift; sourceTree = "<group>"; };
+		F2C44BB22B9203940035198D /* NumberActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberActions.swift; sourceTree = "<group>"; };
+		F2C44BB42B9204990035198D /* FirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstView.swift; sourceTree = "<group>"; };
+		F2C44BB62B9204A00035198D /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		F2C44BB92B9205EC0035198D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2C44B972B9201470035198D /* ReSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +82,14 @@
 		F2C44B852B9201190035198D /* ReSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				F2C44BAD2B92035D0035198D /* Actions */,
+				F2C44BA82B9202F30035198D /* Reducers */,
+				F2C44B9B2B9201820035198D /* State */,
+				F2C44B982B9201560035198D /* Views */,
+				F2C44BB82B9205DC0035198D /* Utils */,
+				F2C44BA42B9202840035198D /* AppRouter.swift */,
+				F2C44BA22B9202790035198D /* AppDelegate.swift */,
 				F2C44B862B9201190035198D /* ReSwiftUIApp.swift */,
-				F2C44B882B9201190035198D /* ContentView.swift */,
 				F2C44B8A2B92011B0035198D /* Assets.xcassets */,
 				F2C44B8C2B92011B0035198D /* ReSwiftUI.entitlements */,
 				F2C44B8D2B92011B0035198D /* Preview Content */,
@@ -67,6 +103,54 @@
 				F2C44B8E2B92011B0035198D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F2C44B982B9201560035198D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2C44B992B9201640035198D /* StoreHostingController.swift */,
+				F2C44BB42B9204990035198D /* FirstView.swift */,
+				F2C44BB62B9204A00035198D /* SecondView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F2C44B9B2B9201820035198D /* State */ = {
+			isa = PBXGroup;
+			children = (
+				F2C44B9C2B92018C0035198D /* ObservableState.swift */,
+				F2C44B9E2B92019E0035198D /* RootState.swift */,
+				F2C44BA02B9201BF0035198D /* NavigationState.swift */,
+				F2C44BA62B9202B10035198D /* NumberState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		F2C44BA82B9202F30035198D /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				F2C44BA92B9203000035198D /* RootReducer.swift */,
+				F2C44BAB2B92033A0035198D /* NavigationReducer.swift */,
+				F2C44BB02B92038D0035198D /* NumberReducer.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		F2C44BAD2B92035D0035198D /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				F2C44BAE2B92036D0035198D /* NavigationActions.swift */,
+				F2C44BB22B9203940035198D /* NumberActions.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		F2C44BB82B9205DC0035198D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F2C44BB92B9205EC0035198D /* Extensions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +169,9 @@
 			dependencies = (
 			);
 			name = ReSwiftUI;
+			packageProductDependencies = (
+				F2C44B962B9201470035198D /* ReSwift */,
+			);
 			productName = ReSwiftUI;
 			productReference = F2C44B832B9201190035198D /* ReSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +200,9 @@
 				Base,
 			);
 			mainGroup = F2C44B7A2B9201190035198D;
+			packageReferences = (
+				F2C44B952B9201470035198D /* XCRemoteSwiftPackageReference "ReSwift" */,
+			);
 			productRefGroup = F2C44B842B9201190035198D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -139,7 +229,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2C44B892B9201190035198D /* ContentView.swift in Sources */,
+				F2C44BB12B92038D0035198D /* NumberReducer.swift in Sources */,
+				F2C44BB52B9204990035198D /* FirstView.swift in Sources */,
+				F2C44BB72B9204A00035198D /* SecondView.swift in Sources */,
+				F2C44B9F2B92019E0035198D /* RootState.swift in Sources */,
+				F2C44BA12B9201BF0035198D /* NavigationState.swift in Sources */,
+				F2C44BAA2B9203000035198D /* RootReducer.swift in Sources */,
+				F2C44BA72B9202B10035198D /* NumberState.swift in Sources */,
+				F2C44BB32B9203940035198D /* NumberActions.swift in Sources */,
+				F2C44BAC2B92033A0035198D /* NavigationReducer.swift in Sources */,
+				F2C44B9A2B9201640035198D /* StoreHostingController.swift in Sources */,
+				F2C44BAF2B92036D0035198D /* NavigationActions.swift in Sources */,
+				F2C44BA52B9202840035198D /* AppRouter.swift in Sources */,
+				F2C44BA32B9202790035198D /* AppDelegate.swift in Sources */,
+				F2C44BBA2B9205EC0035198D /* Extensions.swift in Sources */,
+				F2C44B9D2B92018C0035198D /* ObservableState.swift in Sources */,
 				F2C44B872B9201190035198D /* ReSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,6 +463,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F2C44B952B9201470035198D /* XCRemoteSwiftPackageReference "ReSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReSwift/ReSwift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F2C44B962B9201470035198D /* ReSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2C44B952B9201470035198D /* XCRemoteSwiftPackageReference "ReSwift" */;
+			productName = ReSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F2C44B7B2B9201190035198D /* Project object */;
 }

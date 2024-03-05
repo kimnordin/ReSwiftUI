@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import ReSwift
+
+let store = Store<RootState>(reducer: rootReducer, state: nil, middleware: [])
 
 @main
 struct ReSwiftUIApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            EmptyView() // Initial View is presented through AppRouter in AppDelegate
         }
     }
 }
